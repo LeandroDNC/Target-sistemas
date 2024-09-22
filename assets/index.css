@@ -1,0 +1,178 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh auto;
+    margin: 0;
+    padding: 2rem;
+    background: linear-gradient(to right, #1E3A78, #4A90E2, #A2DFF7);
+    margin: 0;
+
+
+
+}
+
+h1 {
+    text-shadow: 0 1px 2px rgb(119, 119, 119);
+}
+
+.container {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    background: rgb(225, 225, 225);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.input1 {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#resultMessage {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/* segundo teste */
+
+
+
+.container1 {
+    margin: 1rem;
+    width: 50%;
+    background: rgb(235, 235, 235);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 33vh;
+    margin-left: 1rem;
+}
+
+.input2 {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 65%;
+}
+
+.button2 {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #0056b3;
+}
+
+#resultMessage2 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* terceiro teste */
+.container3 {
+    margin: 1rem;
+    width: 50%;
+    background: rgb(235, 235, 235);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 33vh auto;
+    margin-left: 1rem;
+}
+
+/* Quarto teste */
+.container4 {
+    margin: 1rem;
+    width: 50%;
+    background: rgb(235, 235, 235);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 33vh auto;
+    margin-left: 1rem;
+}
+
+/* Quinto teste */
+.container5 {
+    margin: 1rem;
+    width: 50%;
+    background: rgb(235, 235, 235);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 33vh auto;
+    margin-left: 1rem;
+}
+
+.container:hover,
+.container1:hover,
+.container3:hover,
+.container4:hover,
+.container5:hover {
+
+    box-shadow: 0 4px 4px rgba(0, 0.1, 0.1, 0.7);
+    transition: .4s;
+    padding: 25px;
+
+
+
+}
+
+@media (max-width:900px) {
+
+    .container,
+    .container1,
+    .container3,
+    .container4,
+    .container5 {
+        width: 80%;
+    }
+}
+@media (max-width:550px) {
+
+    .container,
+    .container1,
+    .container3,
+    .container4,
+    .container5 {
+        width: 90%;
+        text-align: center;
+
+    }
+        h1{
+            font-size: 1.3rem;
+        }
+}
